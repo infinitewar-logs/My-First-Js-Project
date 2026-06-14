@@ -127,3 +127,17 @@ function moveCamera() {
 
 document.body.onscroll = moveCamera;
 animate();
+
+function playMusic() {
+  let audioMusic = new Audio("sample-10s.mp3");
+  audioMusic.play();
+}
+
+playMusic();
+
+/* 
+Note : There is one condtion in the google chrome browser that is if you are using the audio file in the project then you have to click on the page first and then only the audio will play. Otherwise it will not play automatically.
+
+If you want to check the code execution , you can check in the vsCode Browser extension . 
+
+*/
